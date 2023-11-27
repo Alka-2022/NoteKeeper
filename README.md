@@ -4,13 +4,13 @@ _Cloning the repository_
 
 --> Clone the repository using the command below :
 
-(git clone https://github.com/Alka-2022/NoteKeeper.git)
+git clone https://github.com/Alka-2022/NoteKeeper.git
 
 
 
 --> Move into the directory where we have the project files :
 
-(cd NoteKeeper)
+cd NoteKeeper
 
 
 
@@ -36,10 +36,10 @@ source env/bin/activate
 
 
 
-## Running the App
+## Run the App
 
 
---> To run the Notes App, we use :
+--> To run the App:
 
 python manage.py runserver
 
