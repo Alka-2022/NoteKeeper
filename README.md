@@ -1,47 +1,55 @@
 # NoteKeeper
 
-_Cloning the repository_
+## Cloning the Repository
 
---> Clone the repository using the command below :
+1. Clone the repository:
 
-git clone https://github.com/Alka-2022/NoteKeeper.git
+    ```bash
+    git clone https://github.com/Alka-2022/NoteKeeper.git
+    ```
 
+2. Move into the directory where you have the project files:
 
+    ```bash
+    cd NoteKeeper
+    ```
 
---> Move into the directory where we have the project files :
+3. Create a virtual environment:
 
-cd NoteKeeper
+    - If you are on Windows:
 
+        ```bash
+        virtualenv env
+        ```
 
+    - If you are on Linux or Mac:
 
---> Create a virtual environment :
+        ```bash
+        python -m venv env
+        ```
 
-_If you are on Windows_
+4. Activate the virtual environment:
 
-virtualenv env
+    - If you are on Windows:
 
-_If you are on Linux or Mac_
+        ```bash
+        .\env\Scripts\activate
+        ```
 
-python -m venv env
+    - If you are on Linux or Mac:
 
---> Activate the virtual environment :
-
-_If you are on Windows_
-.\env\Scripts\activate
-
-_If you are on Linux or Mac_
-
-source env/bin/activate
-
-
-
+        ```bash
+        source env/bin/activate
+        ```
 
 ## Run the App
 
+To run the App:
 
---> To run the App:
-
+```bash
 python manage.py runserver
+```
+
+#### The development server will be started at http://127.0.0.1:8000/
 
 
-The development server will be started at http://127.0.0.1:8000/
